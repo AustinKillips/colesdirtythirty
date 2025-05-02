@@ -1,0 +1,31 @@
+---
+const { className } = Astro.props;
+---
+
+<style>
+    .img-container {
+        aspect-ratio: 1;
+        position: relative;
+    }
+
+    .back-button img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .back-button img[alt="Box"] {
+        transition: transform 0.3s ease-in-out;
+    }
+    .back-button:hover img[alt="Box"] {
+        transform: scale(1.3);
+    }
+</style>
+<a href="/" class={`back-button ${className}`}>
+    <div class="img-container">
+        <img src="/quadrilateral.svg" alt="Box" />
+        <img src="/arrow-left.svg" alt="Back" />
+    </div>
+</a>
