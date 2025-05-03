@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colesdirtythirty</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Atkinson Hyperlegible' rel='stylesheet'>
+
+
+</head>
+<body>
+<h1>COLE IT'S YOUR DIRTY 30</h1>
+<div>Let's get nasty<div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <style>
+      body {
+        font-family: 'Atkinson Hyperlegible';
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('COLES WEBSITE.PNG');
+      }
+    </style>
+  </head>
+  <body>
+  
+    <script>
+      // Continuous confetti effect
+      function startContinuousConfetti() {
+        const interval = setInterval(() => {
+          confetti({
+            particleCount: 50,
+            spread: 700,
+            origin: { x: Math.random(), y: Math.random() * 2.2 }
+          });
+        }, 90); // Adjust frequency of confetti
+      }
+  
+      startContinuousConfetti();
+    </script>
+  
+  
+</body>
+</html>
