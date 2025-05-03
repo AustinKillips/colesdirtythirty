@@ -13,7 +13,7 @@
 }
 
 h1 {
-    margin-bottom: 85rem;
+    margin-bottom: 90vw;
     z-index: 10;
     font-weight: 900;
     font-size: 70px;
@@ -31,7 +31,7 @@ h1.birthdaysirensong {
 }
 
 h1.birthdaysirensong2 {
-    margin-top: 110rem;
+    margin-top: 90vw;
    z-index: 10;
     font-weight: 900;
     font-size: 70px;
@@ -40,8 +40,7 @@ h1.birthdaysirensong2 {
 }
 
 h1.birthdaysirensong3 {
-    margin-top: 150rem;
-    margin-left: -80rem;
+    margin-top: 20vw;
    z-index: 10;
     font-weight: 900;
     font-size: 70px;
