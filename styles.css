@@ -13,6 +13,7 @@
 }
 
 h1 {
+    margin-bottom: 85rem;
     z-index: 10;
     font-weight: 900;
     font-size: 70px;
@@ -21,6 +22,26 @@ h1 {
 }
 
 h1.birthdaysirensong {
+    margin-top: 50rem;
+   z-index: 10;
+    font-weight: 900;
+    font-size: 70px;
+    color: rgb(255, 8, 8);
+    background-color: black;
+}
+
+h1.birthdaysirensong2 {
+    margin-top: 110rem;
+   z-index: 10;
+    font-weight: 900;
+    font-size: 70px;
+    color: rgb(255, 8, 8);
+    background-color: black;
+}
+
+h1.birthdaysirensong3 {
+    margin-top: 150rem;
+    margin-left: -80rem;
    z-index: 10;
     font-weight: 900;
     font-size: 70px;
