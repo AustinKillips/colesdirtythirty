@@ -23,21 +23,18 @@ h1 {
 }
 
 h1.birthdaysirensong {
-    margin-top: 50rem;
     transform: rotate3d(-0.9, 6.8, 1.4, -73deg);
     left: 5vw;
     top: 3vh;
 }
 
 h1.birthdaysirensong2 {
-    margin-top: 90vw;
     transform: rotate3d(-0.2, 4.3, -7.3, 119.6deg);
     top: 57vh;
     left: 50vw;
 }
 
 h1.birthdaysirensong3 {
-    margin-top: 20vw;
     transform: rotate3d(1, 1, 1, 45deg);
     top: 78vh;
     left: 28vw;
