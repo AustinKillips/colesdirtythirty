@@ -19,3 +19,11 @@ h1 {
     color: rgb(255, 8, 8);
     background-color: black;
 }
+
+.birthdaysirensong {
+   z-index: 10;
+    font-weight: 900;
+    font-size: 70px;
+    color: rgb(255, 8, 8);
+    background-color: black;
+}
