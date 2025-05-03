@@ -20,7 +20,7 @@ h1 {
     background-color: black;
 }
 
-.birthdaysirensong {
+h1.birthdaysirensong {
    z-index: 10;
     font-weight: 900;
     font-size: 70px;
