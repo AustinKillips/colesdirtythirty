@@ -13,36 +13,32 @@
 }
 
 h1 {
-    z-index: 10;
     font-weight: 900;
     font-size: 70px;
     color: rgb(255, 8, 8);
     background-color: black;
+    position: absolute;
+    
+    transform: rotate3d(-0.8, 0.9, 0.5, 282.1deg);
 }
 
 h1.birthdaysirensong {
     margin-top: 50rem;
-   z-index: 10;
-    font-weight: 900;
-    font-size: 70px;
-    color: rgb(255, 8, 8);
-    background-color: black;
+    transform: rotate3d(-0.9, 6.8, 1.4, -73deg);
+    left: 5vw;
+    top: 3vh;
 }
 
 h1.birthdaysirensong2 {
     margin-top: 90vw;
-   z-index: 10;
-    font-weight: 900;
-    font-size: 70px;
-    color: rgb(255, 8, 8);
-    background-color: black;
+    transform: rotate3d(-0.2, 4.3, -7.3, 119.6deg);
+    top: 57vh;
+    left: 50vw;
 }
 
 h1.birthdaysirensong3 {
     margin-top: 20vw;
-   z-index: 10;
-    font-weight: 900;
-    font-size: 70px;
-    color: rgb(255, 8, 8);
-    background-color: black;
+    transform: rotate3d(1, 1, 1, 45deg);
+    top: 78vh;
+    left: 28vw;
 }
